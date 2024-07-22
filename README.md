@@ -12,6 +12,9 @@ Steps:
    
    DATASOURCEID 
    KNOWLEDGEBASEID
-2. From the root, run the streamlit app through the command: 
+   
+2. Run the above Lambda. You can either trigger manually, or create a hook to the s3 bucket that has the dataset such that the lambda would run whenever there is an update to the s3 bucket
+   
+3. From the root, run the streamlit app through the command: 
 
    streamlit run app.py 
